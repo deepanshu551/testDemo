@@ -85,7 +85,7 @@ router.delete("/:id",(req,res)=>{
             }
             else{
         console.log("Data not deleted :" +JSON.stringify(err,undefined,2));
-        
+        console.log("hello");
             }
  });
 });
